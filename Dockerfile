@@ -20,4 +20,4 @@ RUN npm install express http socket.io fs path
 EXPOSE 8080
 
 # Run the startup script
-CMD ["node server.js"]
+RUN node server.js
